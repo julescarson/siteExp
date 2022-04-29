@@ -1,0 +1,138 @@
+/* siteEXP css */
+
+body {
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    font-family:monospace;
+    /* align-items: center; */
+ }
+
+.content {
+    display:flex;
+    flex-direction: column;
+}
+
+/* ------header-------- */
+.header {
+    display: flex; 
+    flex-direction: column;   
+    color: #F9FAF8;    
+}
+
+.logoText {
+    
+    margin-left: 48px;
+    display: flex;   
+    justify-content: space-between;
+    align-items: flex-end;       
+    font-size: 24px;     
+}
+
+.hero {
+    margin-top: 48px;
+    margin-left: 48px;
+    align-self: flex-start;
+    font-weight: 950;
+    font-size: 48px;
+}
+
+.heroSecondary, .links {
+    color: #E5E7EB;
+    font-size: 18px;
+    
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: white;
+    background-color: #3882f6;
+    border: 1px solid #3882f6;
+    
+}
+
+.wowee {
+    align-self: flex-start;
+    margin: 48px;
+}
+
+.heroSecondary {
+    margin-left: 48px;
+    margin-top: 15px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* ------ info ----- */
+.info {
+   
+    margin-top: 48px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display:flex;
+    background-color: white;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    
+    
+}
+
+.quote {
+    padding: 48px;
+    padding-right: 100px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+.button {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: white;
+}
+
+button.signup {    
+    margin-left: 48px;
+    background-color: #3882f6;
+}
+
+
+
+.footer {
+    padding-top: 5px;
+    justify-content: flex-end;
+    align-self: center;
+    color: #F9FAF8;     
+}
+
+.infoGraphics {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    background-color: white;
+    padding-bottom: 64px;
+}
+.infoText{
+    color: #1F2937;
+    font-size: 18px;
+    justify-content: center;
+}
+img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #1F2937;
+}
